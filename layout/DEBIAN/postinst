@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Set the correct permissions
+chown root:wheel /usr/libexec/relocateme/forcestop
+chmod 6755 /usr/libexec/relocateme/forcestop
+
+# Reload locationd 
+killall -9 locationd

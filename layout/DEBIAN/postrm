@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Reload locationd
+killall -9 locationd

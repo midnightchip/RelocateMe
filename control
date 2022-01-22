@@ -1,0 +1,10 @@
+Package: me.midnightchips.relocateme
+Name: RelocateMe
+Version: 0.0.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 14.0)
+Description: Emulate iOS GPS Locations
+Maintainer: MidnightChips <midnightchips@gmail.com>
+Author: MidnightChips <midnightchips@gmail.com>
+Section: System
+Tag: compatible::14.0-14.8
