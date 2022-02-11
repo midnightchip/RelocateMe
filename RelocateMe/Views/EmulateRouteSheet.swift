@@ -11,10 +11,10 @@ import SwiftUI
 
 struct EmulateRouteSheet: View {
     @EnvironmentObject var envModel: EnviromentModel
-    @ObservedObject var input = NumbersOnly()
-    @ObservedObject var routeCreator = RouteCreator()
-    @State var selectedUnit = "mph"
-    @State var buttonClicked = false
+    @StateObject var input = NumbersOnly()
+    @StateObject var routeCreator = RouteCreator()
+    @State private var selectedUnit = "mph"
+    @State private var buttonClicked = false
     private let measures = ["mph", "km/h"]
     var body: some View {
         NavigationView {

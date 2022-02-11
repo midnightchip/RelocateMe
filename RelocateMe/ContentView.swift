@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var animate: Bool = false
-    @State var showSplash: Bool = true
-    @State var showImage: Bool = false
+    @State private var animate: Bool = false
+    @State private var showSplash: Bool = true
+    @State private var showImage: Bool = false
     @EnvironmentObject var envModel: EnviromentModel
     let backgroundColor = UIColor(red: 0.04, green: 0.39, blue: 0.47, alpha: 1.00)
     var body: some View {

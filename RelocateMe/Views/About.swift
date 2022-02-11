@@ -9,7 +9,7 @@ import SwiftUI
 
 struct About: View {
     @EnvironmentObject var envModel: EnviromentModel
-    @State var openLicense: Bool = false
+    @State private var openLicense: Bool = false
     var body: some View {
         NavigationView {
             ScrollView {

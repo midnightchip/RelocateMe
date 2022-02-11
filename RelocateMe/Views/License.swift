@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LicenseView: View {
-    @ObservedObject var model = Model()
+    @StateObject var model = Model()
     var body: some View {
         ScrollView {
             VStack(alignment: .center) {

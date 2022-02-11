@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AddressLookup: View {
     @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var locationSearchService = LocationSearchService()
+    @StateObject var locationSearchService = LocationSearchService()
     @Binding var selectedAddress: MKPlacemark?
     var isSelected = false
     var needCancel = false
